@@ -1,0 +1,370 @@
+/* reset */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+p,
+blockquote,
+pre,
+hr,
+figure,
+table,
+caption,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+menu {
+  margin: 0;
+  padding: 0;
+}
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+  display: block;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption,
+th {
+  text-align: left;
+  font-weight: normal;
+}
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+  border: 0;
+}
+i,
+cite,
+em,
+var,
+address,
+dfn {
+  font-style: normal;
+}
+[hidefocus],
+summary {
+  outline: 0;
+}
+li {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+  font-size: 100%;
+}
+sup,
+sub {
+  font-size: 83%;
+}
+pre,
+code,
+kbd,
+samp {
+  font-family: inherit;
+}
+q:before,
+q:after {
+  content: none;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+label,
+summary {
+  cursor: default;
+}
+a,
+button {
+  cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+  font-weight: bold;
+}
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+  text-decoration: none;
+}
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+  font: 12px/1.14 arial;
+  color: #333;
+  outline: 0;
+}
+body {
+  background: #fff;
+}
+a,
+a:hover {
+  color: #333;
+}
+@media screen and (width: 320px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (width: 360px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (width: 375px) {
+  html {
+    font-size: 18.75px;
+  }
+}
+body {
+  background-color: #fff;
+}
+header {
+  height: 44px;
+  line-height: 44px;
+  width: 100%;
+  padding-right: 40px;
+  position: relative;
+  padding: 0 10px;
+}
+header .city {
+  height: 44px;
+  font-size: 14px;
+  float: left;
+}
+header .city a {
+  color: #d00397;
+}
+header .cen {
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+}
+header .cen h1 {
+  font-size: 22px;
+  line-height: 44px;
+}
+header .person {
+  float: right;
+  height: 44px;
+}
+header .person img {
+  display: block;
+  height: 28px;
+  width: 21px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.lmm {
+  margin-top: 44px;
+}
+.lmm .fenlei {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0 5px;
+  overflow: hidden;
+}
+.lmm .fenlei a {
+  width: 32%;
+  /* display: block; */
+  float: left;
+  margin-left: 4px;
+  margin-bottom: 5px;
+}
+.lmm .fenlei a img {
+  width: 100%;
+  display: block;
+}
+.fenleis {
+  width: 100%;
+  margin-top: 10px;
+  padding: 0 5px;
+  overflow: hidden;
+}
+.fenleis a {
+  width: 24.7%;
+  /* display: block; */
+  float: left;
+  border: 1px solid #ccc;
+}
+.fenleis a img {
+  width: 100%;
+  display: block;
+}
+.buy {
+  width: 100%;
+}
+.buy ul {
+  width: 100%;
+}
+.buy li {
+  width: 50%;
+  float: left;
+}
+.buy li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.buy li a img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.active {
+  margin-top: 5px;
+  width: 100%;
+  position: relative;
+}
+.active p {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.active ul {
+  width: 100%;
+}
+.active ul li {
+  width: 100%;
+}
+.active ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.active ul li a img {
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+}
+.week {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.week > a {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  font-size: 16px;
+}
+.week .color {
+  color: #d3079e;
+  position: relative;
+}
+.week .color b {
+  display: block;
+  width: 30px;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid #d3079e;
+}
+.week .tp {
+  width: 100%;
+  position: relative;
+}
+.week .tp a {
+  display: block;
+  width: 100%;
+  margin-top: 40px;
+  height: 100%;
+}
+.week .tp a img {
+  margin: 3px 0px;
+  width: 100%;
+  vertical-align: middle;
+}
+.week .tp h6 {
+  margin-top: 5px;
+  font-size: 14px;
+  float: left;
+}
+.week .tp p {
+  font-size: 16px;
+  float: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  position: absolute;
+  left: 0;
+}
+.more {
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  box-shadow: 0 0 5px #ccc;
+  margin-top: 10px;
+  padding-bottom: 55px;
+}
+.more a {
+  font-size: 14px;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  line-height: 30px;
+  background-color: #d3079e;
+  padding: 0 10px;
+}
+footer a {
+  color: #fff;
+}
+footer a:last-child {
+  float: right;
+}
